@@ -23,7 +23,7 @@ browserSync.create();
 
 const isProd = process.env.NODE_ENV === 'prod';
 const sass = gulpSass(dartSass);
-const dir = isProd ? 'build' : 'public';
+const dir = isProd ? 'docs' : 'public';
 
 const htmlFile = [
   'src/*.html'
