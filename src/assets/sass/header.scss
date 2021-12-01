@@ -1,37 +1,50 @@
-.header{
-  height: 80px;
-  border-bottom: 1px solid $black;
-  .container{
+.header {
+  border-bottom: 2px solid #3d3e35;
+
+  .container {
+    height: 80px;
     display: flex;
     justify-content: space-between;
-    .search-menu{
+    align-items: center;
+
+    .search-menu {
       display: flex;
-      &__menu{
-
+      font-size: 20px;
+      &__menu {
+        margin-right: 50px;
       }
-      &__search{
 
-      }
-    }
-    .logo{
-      &-link{
+      &__search {
 
       }
     }
-    .account{
+
+    .logo {
+      &-link {
+        color: $white;
+      }
+    }
+
+    .account {
       display: flex;
-      &-user{
-        width: 20px;
-        height: 23px;
-      }
-      &-lang{
 
+      &-user {
+        //width: 20px;
+        //height: 23px;
+        margin-right: 50px;
       }
-      &-cart{
-        width: 29px;
+
+      &-lang {
+        margin-right: 45px;
+      }
+
+      &-cart {
+        //width: 29px;
+        //height: 23px;
       }
     }
-    p{
+
+    p {
       font-family: norwester;
       font-size: 22px;
     }

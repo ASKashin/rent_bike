@@ -11,7 +11,8 @@
 }
 
 body{
-  background: $light-blue;
+  background: url("../img/bg/header-bg.jpg") center top no-repeat;
+  background-size: cover;
 }
 .container {
   width: 1170px;
@@ -19,7 +20,7 @@ body{
 }
 a {
   text-decoration: none;
-  color: $black;
+  color: $white;
 }
 
 
