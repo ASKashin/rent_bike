@@ -11,7 +11,7 @@
 }
 
 body{
-
+  background: $light-blue;
 }
 .container {
   width: 1170px;
@@ -24,4 +24,4 @@ a {
 
 
 
-//@import "slick";
+@import "header";
