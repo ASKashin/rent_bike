@@ -10,16 +10,28 @@
     .search-menu {
       display: flex;
       font-size: 20px;
+
       &__menu {
         margin-right: 50px;
+        transition: color 0.3 ease-in-out;
+
+        &:hover {
+          color: $green;
+        }
       }
 
       &__search {
+        transition: color 0.3 ease-in-out;
 
+        &:hover {
+          color: $green;
+        }
       }
     }
 
     .logo {
+      margin-left: 80px;
+
       &-link {
         color: $white;
       }
@@ -29,9 +41,8 @@
       display: flex;
 
       &-user {
-        //width: 20px;
-        //height: 23px;
         margin-right: 50px;
+
       }
 
       &-lang {
@@ -39,14 +50,9 @@
       }
 
       &-cart {
-        //width: 29px;
-        //height: 23px;
+        margin-right: 11px;
       }
     }
 
-    p {
-      font-family: norwester;
-      font-size: 22px;
-    }
   }
 }

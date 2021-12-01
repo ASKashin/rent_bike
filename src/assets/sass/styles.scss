@@ -13,6 +13,8 @@
 body{
   background: url("../img/bg/header-bg.jpg") center top no-repeat;
   background-size: cover;
+  font-family: norwester;
+  color: $white;
 }
 .container {
   width: 1170px;
@@ -22,7 +24,12 @@ a {
   text-decoration: none;
   color: $white;
 }
-
+h2{
+  text-transform: uppercase;
+  font-size: 70px;
+  line-height: 70px;
+}
 
 
 @import "header";
+@import "header-content";
