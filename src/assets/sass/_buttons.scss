@@ -1,0 +1,143 @@
+.btn {
+  &-normal {
+    display: inline-block;
+    line-height: 54px;
+    padding: 0 40px;
+    color: $white;
+    position: relative;
+
+    &.blue {
+      background-color: $blue;
+
+      &-angle {
+        background-color: $blue;
+
+        &::after {
+          content: url("../img/buttons/blue.png");
+          position: absolute;
+          right: 0;
+          bottom: -22px;
+        }
+      }
+
+    }
+
+    &.l-blue {
+      background-color: $light-blue;
+
+      &-angle {
+        background-color: $light-blue;
+
+        &::after {
+          content: url("../img/buttons/l-blue.png");
+          position: absolute;
+          right: 0;
+          bottom: -22px;
+
+        }
+      }
+    }
+
+    &.green {
+      background-color: $green;
+
+      &-angle {
+        background-color: $green;
+
+        &::after {
+          content: url("../img/buttons/green.png");
+          position: absolute;
+          right: 0;
+          bottom: -22px;
+        }
+
+      }
+    }
+
+    &.gray {
+      background-color: $gray;
+
+      &-angle {
+        background-color: $gray;
+
+        &::after {
+          content: url("../img/buttons/gray.png");
+          position: absolute;
+          right: 0;
+          bottom: -22px;
+        }
+      }
+    }
+  }
+
+  &-small {
+    display: inline-block;
+    line-height: 45px;
+    padding: 0 30px;
+    color: $white;
+    position: relative;
+
+    &.blue {
+      background-color: $blue;
+
+      &-angle {
+        background-color: $blue;
+
+        &::after {
+          content: url("../img/buttons/blue.png");
+          position: absolute;
+          right: 0;
+          bottom: -17px;
+        }
+      }
+    }
+
+    &.l-blue {
+      background-color: $light-blue;
+
+      &-angle {
+        background-color: $light-blue;
+
+        &::after {
+          content: url("../img/buttons/l-blue.png");
+          position: absolute;
+          right: 0;
+          bottom: -17px;
+        }
+      }
+    }
+
+    &.green {
+      background-color: $green;
+
+      &-angle {
+        background-color: $green;
+
+        &::after {
+          content: url("../img/buttons/green.png");
+          position: absolute;
+          right: 0;
+          bottom: -17px;;
+        }
+      }
+    }
+
+    &.gray {
+      background-color: $gray;
+
+      &-angle {
+        background-color: $gray;
+
+        &::after {
+          content: url("../img/buttons/gray.png");
+          position: absolute;
+          right: 0;
+          bottom: -17px;
+        }
+      }
+    }
+  }
+}
+
+
+
