@@ -1,0 +1,31 @@
+.header-content {
+  .container {
+    .header-content__title {
+      width: 520px;
+      margin-top: 217px;
+    }
+
+    .header-content__text {
+      text-transform: uppercase;
+      font-size: 20px;
+      line-height: 35px;
+      color: $white;
+      opacity: 0.7;
+      margin-top: 15px;
+    }
+
+    .menu {
+      margin: 75px 0 80px;
+
+      .menu__list {
+        display: flex;
+        gap: 40px;
+
+        &-item {
+          display: inline-block;
+
+        }
+      }
+    }
+  }
+}
