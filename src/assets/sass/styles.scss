@@ -1,0 +1,27 @@
+@import "colors.scss";
+@import "fonts.scss";
+@import "variables";
+@import "buttons";
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  color: $black;
+}
+
+
+
+//@import "slick";
