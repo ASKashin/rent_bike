@@ -1,9 +1,9 @@
 .bikes {
   background: $white;
-
+  padding:130px 0;
   .container {
     .bikes__info-inner {
-      margin-top: 120px;
+      //margin-top: 120px;
       display: flex;
       justify-content: space-between;
 
@@ -28,6 +28,19 @@
         .bikes__list-wrapper {
           .services-inner {
             background: $blue;
+
+            &__bg1 {
+              background: url("../img/bikes/specialized-demo.png") center top no-repeat;
+            }
+            &__bg2 {
+              background: url("../img/bikes/trek-session.png") center top no-repeat;
+            }
+            &__bg3 {
+              background: url("../img/bikes/scott-voltage.png") center top no-repeat;
+            }
+            &__bg4 {
+              background: url("../img/bikes/commencal-supreme.png") center top no-repeat;
+            }
 
             p {
               font-size: 15px;
