@@ -1,5 +1,6 @@
 .btn {
   &-normal {
+    height: 54px;
     display: inline-block;
     line-height: 54px;
     padding: 0 40px;
@@ -17,7 +18,7 @@
           content: url("../img/buttons/blue.png");
           position: absolute;
           right: 0;
-          bottom: -22px;
+          bottom: -21px;
         }
       }
 
@@ -33,7 +34,7 @@
           content: url("../img/buttons/l-blue.png");
           position: absolute;
           right: 0;
-          bottom: -22px;
+          bottom: -21px;
 
         }
       }
@@ -49,7 +50,7 @@
           content: url("../img/buttons/green.png");
           position: absolute;
           right: 0;
-          bottom: -22px;
+          bottom: -21px;
         }
 
       }
@@ -65,13 +66,14 @@
           content: url("../img/buttons/gray.png");
           position: absolute;
           right: 0;
-          bottom: -22px;
+          bottom: -21px;
         }
       }
     }
   }
 
   &-small {
+    height: 45px;
     display: inline-block;
     line-height: 45px;
     padding: 0 30px;
@@ -86,7 +88,7 @@
         background-color: $blue;
 
         &::after {
-          content: url("../img/buttons/blue.png");
+          content: url("../img/buttons/blue-small.png");
           position: absolute;
           right: 0;
           bottom: -17px;
@@ -101,7 +103,7 @@
         background-color: $light-blue;
 
         &::after {
-          content: url("../img/buttons/l-blue.png");
+          content: url("../img/buttons/l-blue-small.png");
           position: absolute;
           right: 0;
           bottom: -17px;
@@ -116,7 +118,7 @@
         background-color: $green;
 
         &::after {
-          content: url("../img/buttons/green.png");
+          content: url("../img/buttons/green-small.png");
           position: absolute;
           right: 0;
           bottom: -17px;;
@@ -131,7 +133,7 @@
         background-color: $gray;
 
         &::after {
-          content: url("../img/buttons/gray.png");
+          content: url("../img/buttons/gray-small.png");
           position: absolute;
           right: 0;
           bottom: -17px;
