@@ -1,0 +1,33 @@
+.features{
+  background: url("../img/bg/features-bg.jpg") center top no-repeat;
+  background-size: cover;
+  padding: 120px 0 250px;
+  &__items{
+    display: flex;
+    margin-top: 65px;
+    gap: 133px;
+    .features__item{
+      display: inline-block;
+      padding-top: 120px;
+      &-bg1{
+        background: url("../img/icons/bike-type-sport.png") left top no-repeat;
+      }
+      &-bg2{
+        background: url("../img/icons/bike-parameters.png") left 9px no-repeat;
+      }
+      &-bg3{
+        background: url("../img/icons/additional-accessories.png") left 9px no-repeat;
+      }
+      &-title{
+        width: 210px;
+      }
+      &-lead{
+        margin-top: 25px;
+        width: 280px;
+        font-family: Lato, sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+      }
+    }
+  }
+}
