@@ -1,5 +1,5 @@
 .bikes {
-  background: #cbced2;
+  background: $white;
 
   .container {
     .bikes__info-inner {
@@ -15,41 +15,102 @@
         margin-top: 4px;
       }
     }
-    .bikes__list{
 
-     .bikes__list-item{
-       display: inline-block;
-       width: 285px;
-       .bikes__list-wrapper{
-         .services-inner{
-           background: $blue;
-           p{
-             font-size: 15px;
-             padding-top: 20px;
-           }
-           .services-items{
-             margin-top: 210px;
-             margin-bottom: 21px;
-             display: flex;
-             .services-item{
-               display: inline-block;
-               margin-right: 25px;
-             }
-           }
-           .services-title{
-             line-height: 86px;
-             background-color: $light-blue;
-             position: relative;
-             &::after{
-               content: url("../img/buttons/l-blue2.png");
-               position: absolute;
-               top: -53px ;
-               right: 0;
-             }
-           }
-         }
-       }
-     }
+    .bikes__list {
+      margin-top: 60px;
+      display: flex;
+      gap: 10px;
+
+      .bikes__list-item {
+        display: inline-block;
+        width: 285px;
+
+        .bikes__list-wrapper {
+          .services-inner {
+            background: $blue;
+
+            p {
+              font-size: 15px;
+              padding-top: 18px;
+              padding-left: 20px;
+            }
+
+            .services-items {
+              margin-top: 202px;
+              padding-bottom: 18px;
+              display: flex;
+
+              .services-item {
+                display: inline-block;
+                margin-right: 25px;
+
+                &:first-child {
+                  margin-left: 20px;
+                }
+              }
+            }
+          }
+        }
+
+        .services-title {
+          line-height: 86px;
+          background-color: $light-blue;
+          position: relative;
+          padding-left: 20px;
+
+          &::after {
+            content: url("../img/buttons/l-blue2.png");
+            position: absolute;
+            top: -53px;
+            right: 0;
+          }
+        }
+
+        .price-items {
+          border: 2px solid $l-gray;
+          border-top: none;
+
+          .price-item {
+            padding: 20px 0;
+            display: flex;
+            justify-content: space-between;
+
+            &:not(:last-child) {
+              font-family: 'Lato', sans-serif;
+              font-weight: 600;
+              color: $light-blue2;
+              font-size: 15px;
+            }
+
+            &:nth-child(even) {
+              background-color: $l-gray;
+            }
+
+            &:last-child {
+              padding: 30px 0;
+            }
+
+            .btn-normal {
+              margin: 0 auto;
+            }
+
+            .period {
+
+              margin-left: 20px;
+            }
+
+            .rate {
+
+              margin-right: 20px;
+
+              span {
+                font-size: 18px;
+                font-weight: 900;
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
