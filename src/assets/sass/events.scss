@@ -1,6 +1,7 @@
 .events {
   background: #acb6bf;
   padding: 120px 0 130px;
+
   .wrapper {
     display: flex;
     justify-content: space-between;
@@ -13,31 +14,53 @@
       margin-top: 7px;
     }
   }
-  .events__items{
+
+  .events__items {
     display: flex;
     flex-wrap: wrap;
     margin-top: 60px;
-    .events__item{
+
+    .events__item {
       display: flex;
       min-width: 50%;
-      &.right{
+      //position: relative;     ваще чет не ебу как сделать эти квадраты(((
+      //
+      //&::after {
+      //  content: "12 AUG";
+      //  position: absolute;
+      //  right: 50%;
+      //}
+
+      &.right {
         flex-direction: row-reverse;
       }
-      &-inner{;
+
+      &-inner {;
         width: 100%;
         background-color: $light-blue;
-        .events__item-title{
+        position: relative;
+
+        &::after {
+          content: url("../img/buttons/l-blue3.png");
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          height: 25px;
+        }
+
+        .events__item-title {
           width: 280px;
           padding-top: 25px;
           padding-left: 15px;
         }
-        .events__item-lead{
+
+        .events__item-lead {
           margin-top: 40px;
           width: 250px;
           padding-left: 15px;
           font-family: Lato, sans-serif;
           font-weight: 500;
-          font-style: 16px;
+          font-size: 16px;
         }
       }
     }
