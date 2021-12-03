@@ -1,0 +1,90 @@
+.footer {
+  background: url("../img/bg/footer-bg.jpg") center 85px no-repeat, $blue;
+
+  .container {
+    .footer__subscribe {
+      display: flex;
+      justify-content: space-between;
+      height: 85px;
+      align-items: center;
+      border-bottom: 2px solid $gray;
+
+      .footer__subscribe-input {
+        background-color: transparent;
+        border: none;
+        color: $green;
+        font-family: Lato, sans-serif;
+        width: 220px;
+        line-height: 30px;
+        margin-top: 8px;
+
+        &::placeholder {
+          color: $gray;
+          font-size: 30px;
+          font-family: norwester;
+
+        }
+
+        &:focus {
+          outline: none;
+        }
+      }
+
+      .footer__subscribe-news {
+        font-size: 30px;
+        letter-spacing: 1px;
+
+        i {
+          margin-left: 30px;
+        }
+      }
+    }
+
+    .footer__info {
+      text-align: center;
+
+      .footer__logo {
+        &-img {
+          margin-top: 145px;
+        }
+
+      }
+
+      .footer__list {
+        margin-top: 70px;
+        display: flex;
+        gap: 75px;
+        justify-content: center;
+
+        .footer__item {
+          display: inline-block;
+          text-transform: uppercase;
+
+          &-link {
+            color: $gray;
+            font-size: 25px;
+            transition: color 0.3s ease-in-out;
+
+            &:hover {
+              color: $green;
+            }
+          }
+        }
+      }
+
+    }
+
+    .footer__contacts-list {
+      margin-top: 170px;
+      display: flex;
+      gap: 170px;
+      justify-content: center;
+      .footer__contacts-item {
+        display: inline-block;
+        padding-top: 50px;
+      }
+    }
+
+
+  }
+}
