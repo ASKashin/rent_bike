@@ -52,7 +52,6 @@
           right: 0;
           bottom: -21px;
         }
-
       }
     }
 
@@ -70,6 +69,13 @@
         }
       }
     }
+    &.ghost{
+      background-color: transparent;
+      border: 2px solid $green;
+    }
+
+
+
   }
 
   &-small {
