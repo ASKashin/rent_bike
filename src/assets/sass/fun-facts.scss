@@ -1,0 +1,54 @@
+.fun-facts {
+  background: url("../img/bg/fun-facts-bg.jpg") center top no-repeat;
+  padding: 80px 0 90px;
+
+  .container {
+    .fun-facts__items {
+      display: flex;
+
+      .fun-facts__item {
+        display: inline-block;
+        padding-top: 150px;
+        &:not(:last-child) {
+        margin-right: 83px;
+      }
+
+        &.bg1 {
+          background: url("../img/icons/mouse.png") left top no-repeat;
+        }
+
+        &.bg2 {
+          background: url("../img/icons/dead-keyboard.png") left top no-repeat;
+        }
+
+        &.bg3 {
+          background: url("../img/icons/wheel.png") left top no-repeat;
+        }
+
+        &.bg4 {
+          background: url("../img/icons/cup.png") left top no-repeat;
+        }
+
+        &-title {
+          font-size: 70px;
+          width: 133px;
+        }
+
+        &-subtitle {
+          font-size: 25px;
+        }
+
+
+        &-text {
+          text-transform: lowercase;
+          width: 217px;
+          font-family: Lato, sans-serif;
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 30px;
+          color: $gray;
+        }
+      }
+    }
+  }
+}
