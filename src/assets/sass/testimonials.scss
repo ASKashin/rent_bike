@@ -1,8 +1,19 @@
 .testimonials {
   background: url("../img/bg/testimonials-bg.jpg") center top no-repeat;
-
   padding: 120px 0 155px;
-
+  position: relative;
+  &::before{
+    content: url("../img/testimonials/arrow-left.jpg");
+    position: absolute;
+    left:0;
+    top: 350px;
+  }
+  &::after{
+    content: url("../img/testimonials/arrow-right.jpg");
+    position: absolute;
+    right:0;
+    top: 350px;
+  }
 
   .container {
     .testimonials__title {
