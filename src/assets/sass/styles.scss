@@ -11,7 +11,7 @@
 }
 
 body{
-  background: url("../img/bg/header-bg.jpg") center top no-repeat;
+  background: url("../img/bg/header-bg.jpg") center top no-repeat, $blue2;
   background-size: cover;
   font-family: norwester;
   color: $white;
