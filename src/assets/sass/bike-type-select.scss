@@ -1,0 +1,125 @@
+.type {
+  border-bottom: 2px solid rgb(255, 255, 255, 0.15);
+
+  .container {
+    .type__steps {
+      margin-top: 25px;
+
+      .type__steps-list {
+        display: flex;
+        justify-content: center;
+        gap: 45px;
+        align-items: center;
+
+        .type__steps-item {
+          display: inline-block;
+        }
+      }
+    }
+
+    .type__title {
+      margin-top: 70px;
+
+      span {
+        color: $green;
+      }
+    }
+
+    .type__parameters {
+      display: flex;
+      margin-top: 75px;
+      text-transform: uppercase;
+      font-size: 16px;
+      color: #a6acb3;
+      align-items: center;
+
+      .type__choice-list {
+        display: flex;
+        gap: 70px;
+        margin-right: 80px;
+
+        .type__choice-item {
+          display: inline-block;
+
+          .type__choice-link {
+            position: relative;
+
+            &::after {
+              content: url("../img/bike-type/icons/angle.png");
+              position: absolute;
+              top: 7px;
+              lext: 3px;
+            }
+          }
+        }
+      }
+
+      .type__gender-list {
+        display: flex;
+        gap: 10px;
+
+        .type__gender-item {
+          display: inline-block;
+
+          .type__gender-link {
+            display: block;
+            line-height: 28px;
+            padding: 0 8px;
+            border: 2px solid transparent;
+            transition: all 0.3s ease-in-out;
+
+            &.type__gender-link--active {
+              border: 2px solid $green;
+              color: $green;
+            }
+
+            &:hover {
+              border: 2px solid $green;
+              color: $green;
+            }
+          }
+        }
+      }
+    }
+
+    .type__content {
+      margin-top: 25px;
+      display: flex;
+      justify-content: space-between;
+
+      .type__content-item {
+        display: inline-block;
+        width: 285px;
+
+        &.bg1 {
+          background: url("../img/bike-type/road.jpg") center top no-repeat;
+        }
+
+        &.bg2 {
+          background: url("../img/bike-type/cross-country.jpg") center top no-repeat;
+        }
+
+        &.bg3 {
+          background: url("../img/bike-type/fr-dh.jpg") center top no-repeat;
+        }
+
+        &.bg4 {
+          background: url("../img/bike-type/all-mountain.jpg") center top no-repeat;
+        }
+
+        .type__content-title {
+          padding: 237px 0 16px 20px;
+          font-size: 30px;
+          text-transform: uppercase;
+        }
+      }
+    }
+
+
+    .btn-small {
+      margin: 40px 0 90px;
+
+    }
+
+  }
+}
