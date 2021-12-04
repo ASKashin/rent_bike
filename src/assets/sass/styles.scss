@@ -25,6 +25,12 @@ body {
 
 
   }
+  &.type-select {
+    background: url("../img/bike-type/bike-type-select.jpg") center top no-repeat;
+    background-size: cover;
+
+
+  }
 
 }
 
@@ -81,3 +87,4 @@ h6{
 @import "footer";
 @import "footer-down";
 @import "activity";
+@import "bike-type-select";

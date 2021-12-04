@@ -1,16 +1,16 @@
 .activity {
   border-bottom: 2px solid  rgb(255, 255, 255, 0.15);
   .container {
-    nav {
+    .activity__steps {
       margin-top: 25px;
 
-      .activity__list {
+      .activity__steps-list {
         display: flex;
         justify-content: center;
         gap: 45px;
         align-items: center;
 
-        .activity__item {
+        .activity__steps-item {
           display: inline-block;
         }
       }
@@ -42,6 +42,7 @@
         .activity__content-title {
           padding: 286px 0 16px 20px;
           font-size: 30px;
+          text-transform: uppercase;
         }
       }
     }
