@@ -79,12 +79,73 @@
       display: flex;
       gap: 170px;
       justify-content: center;
+
       .footer__contacts-item {
         display: inline-block;
-        padding-top: 50px;
+        padding: 50px 0 35px;
+        font-size: 16px;
+
+        &.bg1 {
+          background: url("../img/icons/phone.png") center top no-repeat;
+        }
+
+        &.bg2 {
+          background: url("../img/icons/e-mail.png") center top no-repeat;
+        }
+
+        &.bg3 {
+          background: url("../img/icons/skype.png") center top no-repeat;
+        }
+
+        &.bg4 {
+          background: url("../img/icons/addres.png") center top no-repeat;
+        }
       }
     }
 
+    .footer__down {
+      display: flex;
+      justify-content: space-between;
+      font-family: Lato, sans-serif;
+      font-weight: 700;
+
+      .footer__down-copy {
+        font-size: 14px;
+
+        span {
+          text-transform: uppercase;
+          color: $green;
+        }
+      }
+
+      .footer__down-socials {
+        display: flex;
+        align-items: center;
+
+        .footer__down-socials__text {
+          font-size: 18px;
+          margin-right: 29px;
+        }
+
+        .footer__down-socials__list {
+          display: flex;
+          justify-content: space-between;
+          gap: 33px;
+
+          .footer__down-socials__item {
+            display: inline-block;
+
+            &-link {
+              font-size: 27px;
+              transition: color 0.3s ease-in-out;
+              &:hover{
+                color: $green;
+              }
+            }
+          }
+        }
+      }
+    }
 
   }
 }
