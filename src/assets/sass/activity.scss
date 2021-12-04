@@ -1,0 +1,60 @@
+.activity {
+  border-bottom: 2px solid  rgb(255, 255, 255, 0.15);
+  .container {
+    nav {
+      margin-top: 25px;
+
+      .activity__list {
+        display: flex;
+        justify-content: center;
+        gap: 45px;
+        align-items: center;
+
+        .activity__item {
+          display: inline-block;
+        }
+      }
+    }
+
+    .activity__title {
+      margin-top: 70px;
+      span {
+        color: $green;
+      }
+    }
+
+    .activity__content {
+      margin-top: 70px;
+      display: flex;
+      justify-content: space-between;
+      .activity__content-item {
+        display: inline-block;
+        width: 384px;
+        &.bg1{
+          background: url("../img/bike-activity/comfort.jpg") center top no-repeat;
+        }
+        &.bg2{
+          background: url("../img/bike-activity/active.jpg") center top no-repeat;
+        }
+        &.bg3{
+          background: url("../img/bike-activity/segway.jpg") center top no-repeat;
+        }
+        .activity__content-title {
+          padding: 286px 0 16px 20px;
+          font-size: 30px;
+        }
+      }
+    }
+
+    .activity__buttons {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 40px;
+      margin-bottom: 90px;
+      .btn-small{
+        width: 200px;
+        text-align: center;
+      }
+    }
+  }
+}
