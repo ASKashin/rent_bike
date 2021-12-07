@@ -3,7 +3,7 @@
 
   $(document).ready(function () {
 
-    console.log("script here")
+    $("#datepicker").datepicker();
 
   });
 })(jQuery); // End of use strict

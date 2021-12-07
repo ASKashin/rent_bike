@@ -1,5 +1,6 @@
 .testimonials {
   background: url("../img/bg/testimonials-bg.jpg") center top no-repeat;
+  background-size: cover;
   padding: 120px 0 155px;
   position: relative;
   &::before{
