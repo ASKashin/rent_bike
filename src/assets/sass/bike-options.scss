@@ -1,24 +1,24 @@
-.model {
+.options {
   border-bottom: 2px solid rgb(255, 255, 255, 0.15);
 
   .container {
-    .model__steps {
+    .options__steps {
       margin-top: 25px;
 
-      .model__steps-list {
+      .options__steps-list {
         display: flex;
         justify-content: center;
         gap: 45px;
         align-items: center;
         height: 80px;
 
-        .model__steps-item {
+        .options__steps-item {
           display: inline-block;
         }
       }
     }
 
-    .model__title {
+    .options__title {
       margin-top: 70px;
 
       span {
@@ -26,22 +26,22 @@
       }
     }
 
-    .model__content {
+    .options__content {
   display: flex;
-      .model__content-img{
+      .options__content-img{
 
       }
-      .model__content-wrapper{
+      .options__content-wrapper{
         margin-left: 20px;
-        .model__content-description{
+        .options__content-description{
 
         }
-        .model__list-group{
+        .options__list-group{
           display: flex;
           justify-content: space-between;
-          .model__list{
+          .options__list{
             list-style-position: inside;
-            .model__list-item{
+            .options__list-item{
 
               &::marker{
                 color: $green;
@@ -54,7 +54,7 @@
     }
 
 
-    .model__buttons {
+    .options__buttons {
       display: flex;
       justify-content: space-between;
       margin: 40px 0 90px;
