@@ -10,6 +10,7 @@
         justify-content: center;
         gap: 45px;
         align-items: center;
+        height: 80px;
 
         .model__steps-item {
           display: inline-block;
@@ -90,6 +91,7 @@
       .model__content-item {
         display: inline-block;
         width: 285px;
+        padding-left: 20px;
 
         &.bg1 {
           background: url("../img/bike-type/road.jpg") center top no-repeat;
@@ -107,8 +109,12 @@
           background: url("../img/bike-type/all-mountain.jpg") center top no-repeat;
         }
 
+        .model__content-type {
+          padding-top: 17px;
+        }
+
         .model__content-title {
-          padding: 237px 0 16px 20px;
+          padding: 200px 0 16px;
           font-size: 30px;
           text-transform: uppercase;
         }
