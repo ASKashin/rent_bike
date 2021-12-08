@@ -26,9 +26,16 @@ body {
   &.type-select {
     background: url("../img/bike-type/bike-type-select.jpg") center top no-repeat;
     background-size: cover;
+
   }&.tour-select {
     background: url("../img/tour/bg/select-bg.jpg") center top no-repeat;
     background-size: cover;
+  }
+
+  &.cart{
+    background: url("../img/cart/bg/title-bg.jpg") center top no-repeat, $blue2;
+    background-size: cover;
+    height: 330px;
   }
 
 }
@@ -91,3 +98,7 @@ h6{
 @import "bike-options";
 @import "bike-extras";
 @import "tour-select";
+
+
+//cart
+@import "cart-title";
