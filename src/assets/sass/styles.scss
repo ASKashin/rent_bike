@@ -16,20 +16,19 @@ body {
   &.home {
     background: url("../img/bg/header-bg.jpg") center top no-repeat, $blue2;
     background-size: cover;
-
     height: 900px;
   }
   &.activity-select {
     background: url("../img/bg/activity-select-bg.jpg") center top no-repeat;
     background-size: cover;
 
-
   }
   &.type-select {
     background: url("../img/bike-type/bike-type-select.jpg") center top no-repeat;
     background-size: cover;
-
-
+  }&.tour-select {
+    background: url("../img/tour/bg/select-bg.jpg") center top no-repeat;
+    background-size: cover;
   }
 
 }
@@ -91,3 +90,4 @@ h6{
 @import "bike-model-select";
 @import "bike-options";
 @import "bike-extras";
+@import "tour-select";
