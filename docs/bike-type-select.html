@@ -1,1 +1,141 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>RentBike</title><link rel="stylesheet" href="assets/css/styles.css"></head><body class="type-select"><header class="header"><div class="container"><div class="search-menu"><a class="search-menu__menu" href="#"><i class="fa fa-bars" aria-hidden="true"></i></a> <a class="search-menu__search" href="#"><i class="fa fa-search" aria-hidden="true"></i></a></div><div class="logo"><a class="logo-link" href="http://localhost:3000"><img src="assets/img/logo.png" alt=""></a></div><div class="account"><a class="account-user" href="#"><img src="assets/img/icons/user.png" alt=""></a><a class="account-lang" href="#"><img src="assets/img/icons/flag.png" alt=""> </a><a class="account-cart" href="#"><img src="assets/img/icons/cart.png" alt=""></a></div></div></header><section class="type"><div class="container"><nav class="type__steps"><ul class="type__steps-list"><li class="type__steps-item"><a href="http://localhost:3000/bike-activity-select.html"><img src="assets/img/bike-type/icons/activity.png" alt=""></a></li><li class="type__steps-item"><img src="assets/img/bike-type/icons/angle-double-right-active.png" alt=""></li><li class="type__steps-item type__steps-item--active"><a href="http://localhost:3000/bike-type-select.html"><img src="assets/img/bike-type/icons/bike-type-sport.png" alt=""></a></li><li class="type__steps-item"><img src="assets/img/bike-type/icons/angle-double-right.png" alt=""></li><li class="type__steps-item"><a href="http://localhost:3000/bike-model-select.html"><img src="assets/img/bike-type/icons/bike-brand.png" alt=""></a></li><li class="type__steps-item"><img src="assets/img/bike-type/icons/angle-double-right.png" alt=""></li><li class="type__steps-item"><a href="#"><img src="assets/img/bike-type/icons/bike-parameters.png" alt=""></a></li><li class="type__steps-item"><img src="assets/img/bike-type/icons/angle-double-right.png" alt=""></li><li class="type__steps-item"><a href="#"><img src="assets/img/bike-type/icons/additional-accessories.png" alt=""></a></li></ul></nav><h6 class="type__title"><span>bike:</span> type select</h6><div class="type__parameters"><ul class="type__choice-list"><li class="type__choice-item"><a class="type__choice-link" href="#">Sort by price</a></li><li class="type__choice-item"><a class="type__choice-link" href="#">All brands</a></li><li class="type__choice-item"><a class="type__choice-link" href="#">26” wheels</a></li></ul><ul class="type__gender-list"><li class="type__gender-item"><a class="type__gender-link type__gender-link--active" href="#">All</a></li><li class="type__gender-item"><a class="type__gender-link" href="#">Male</a></li><li class="type__gender-item"><a class="type__gender-link" href="#">Female</a></li><li class="type__gender-item"><a class="type__gender-link" href="#">Kids</a></li></ul></div><ul class="type__content"><li class="type__content-item bg1"><p class="type__content-title">Road</p></li><li class="type__content-item bg2"><p class="type__content-title">Cross country</p></li><li class="type__content-item bg3"><p class="type__content-title">FR/DH</p></li><li class="type__content-item bg4"><p class="type__content-title">All mountain</p></li></ul><a class="btn-small l-blue-angle" href="#">back</a></div></section><footer class="footer-down"><div class="container"><p class="footer__down-copy">Theme <span>BESTWEBSOFT</span>. © 2015 All Rights Reserved</p><div class="footer__down-socials"><p class="footer__down-socials__text">Follow us</p><ul class="footer__down-socials__list"><li class="footer__down-socials__item"><a class="footer__down-socials__item-link" href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li><li class="footer__down-socials__item"><a class="footer__down-socials__item-link" href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li><li class="footer__down-socials__item"><a class="footer__down-socials__item-link" href="#"><i class="fa fa-pinterest-square" aria-hidden="true"></i></a></li><li class="footer__down-socials__item"><a class="footer__down-socials__item-link" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li></ul></div></div></footer><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/edafc66acb.js" crossorigin="anonymous"></script><script src="assets/js/script.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RentBike</title>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://jqueryui.com/resources/demos/style.css">
+    <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+
+<body class="type-select">
+    <header class="header">
+        <div class="container">
+            <div class="search-menu"> <a class="search-menu__menu" href="#"><i class="fa fa-bars" aria-hidden="true"></i></a>
+
+                <a class="search-menu__search" href="#"><i class="fa fa-search" aria-hidden="true"></i>
+
+                </a>
+            </div>
+            <div class="logo"> <a class="logo-link" href="http://localhost:3000"><img src="assets/img/logo.png" alt=""></a>
+
+            </div>
+            <div class="account"> <a class="account-user" href="#"><img src="assets/img/icons/user.png" alt=""></a>
+
+                <a class="account-lang" href="#">
+                    <img src="assets/img/icons/flag.png" alt="">
+                </a> <a class="account-cart" href="/cart.html"><img src="assets/img/icons/cart.png" alt=""></a>
+
+            </div>
+        </div>
+    </header>
+    <section class="type">
+        <div class="container">
+            <nav class="type__steps">
+                <ul class="type__steps-list">
+                    <li class="type__steps-item "> <a href="/bike-activity-select.html"><img src="assets/img/bike-type/icons/activity.png" alt=""></a>
+
+                    </li>
+                    <li class="type__steps-item">
+                        <img src="assets/img/bike-type/icons/angle-double-right-active.png" alt="">
+                    </li>
+                    <li class="type__steps-item type__steps-item--active"> <a href="/bike-type-select.html"><img src="assets/img/bike-type/icons/bike-type-sport.png" alt=""></a>
+
+                    </li>
+                    <li class="type__steps-item">
+                        <img src="assets/img/bike-type/icons/angle-double-right.png" alt="">
+                    </li>
+                    <li class="type__steps-item"> <a href="/bike-model-select.html"><img src="assets/img/bike-type/icons/bike-brand.png" alt=""></a>
+
+                    </li>
+                    <li class="type__steps-item">
+                        <img src="assets/img/bike-type/icons/angle-double-right.png" alt="">
+                    </li>
+                    <li class="type__steps-item"> <a href="/bike-options.html"><img src="assets/img/bike-type/icons/bike-parameters.png" alt=""></a>
+
+                    </li>
+                    <li class="type__steps-item">
+                        <img src="assets/img/bike-type/icons/angle-double-right.png" alt="">
+                    </li>
+                    <li class="type__steps-item"> <a href="/bike-extras.html"><img src="assets/img/bike-type/icons/additional-accessories.png" alt=""></a>
+
+                    </li>
+                </ul>
+            </nav>
+            <h6 class="type__title"><span>bike:</span> type select</h6>
+
+            <div class="type__parameters">
+                <ul class="type__choice-list">
+                    <li class="type__choice-item"> <a class="type__choice-link" href="#">Sort by price</a>
+
+                    </li>
+                    <li class="type__choice-item"> <a class="type__choice-link" href="#">All brands</a>
+
+                    </li>
+                    <li class="type__choice-item"> <a class="type__choice-link" href="#">26” wheels</a>
+
+                    </li>
+                </ul>
+                <ul class="type__gender-list">
+                    <li class="type__gender-item"> <a class="type__gender-link type__gender-link--active" href="#">All</a>
+
+                    </li>
+                    <li class="type__gender-item"> <a class="type__gender-link" href="#">Male</a>
+
+                    </li>
+                    <li class="type__gender-item"> <a class="type__gender-link" href="#">Female</a>
+
+                    </li>
+                    <li class="type__gender-item"> <a class="type__gender-link" href="#">Kids</a>
+
+                    </li>
+                </ul>
+            </div>
+            <ul class="type__content">
+                <li class="type__content-item bg1">
+                    <p class="type__content-title">Road</p>
+                </li>
+                <li class="type__content-item bg2">
+                    <p class="type__content-title">Cross country</p>
+                </li>
+                <li class="type__content-item bg3">
+                    <p class="type__content-title">FR/DH</p>
+                </li>
+                <li class="type__content-item bg4">
+                    <p class="type__content-title">All mountain</p>
+                </li>
+            </ul> <a class="btn-small l-blue-angle" href="#">back</a>
+
+        </div>
+    </section>
+    <footer class="footer-down">
+        <div class="container">
+            <p class="footer__down-copy">Theme <span>BESTWEBSOFT</span>. © 2015 All Rights Reserved</p>
+            <div class="footer__down-socials">
+                <p class="footer__down-socials__text">Follow us</p>
+                <ul class="footer__down-socials__list">
+                    <li class="footer__down-socials__item"> <a class="footer__down-socials__item-link" href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+
+                    </li>
+                    <li class="footer__down-socials__item"> <a class="footer__down-socials__item-link" href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+
+                    </li>
+                    <li class="footer__down-socials__item"> <a class="footer__down-socials__item-link" href="#"><i class="fa fa-pinterest-square" aria-hidden="true"></i></a>
+
+                    </li>
+                    <li class="footer__down-socials__item"> <a class="footer__down-socials__item-link" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+    <script src="https://kit.fontawesome.com/edafc66acb.js" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

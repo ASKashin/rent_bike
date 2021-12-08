@@ -35,9 +35,9 @@ export const html = () => {
       basePath: 'src/assets/partials/'
     }))
     .pipe(htmlBeautify())
-    .pipe(gulpIf(isProd, htmlMin({
-      collapseWhitespace: true
-    })))
+    // .pipe(gulpIf(isProd, htmlMin({
+    //   collapseWhitespace: true
+    // })))
     .pipe(gulp.dest(dir));
 }
 

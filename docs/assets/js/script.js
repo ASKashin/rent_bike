@@ -1,1 +1,1 @@
-!function(e){"use strict";jQuery(document).ready(function(){console.log("script here")})}();
+!function(e){"use strict";e(document).ready(function(){e("#datepicker").datepicker()})}(jQuery);
